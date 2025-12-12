@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Website</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f7f5f2; /* pearl */
+    }
+
+    /* NAVIGATION BAR */
+    nav {
+        background-color: #4a2c2a; /* mahogany */
+        padding: 15px;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    /* MAIN CARD */
+    .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        text-align: center;
+    }
+
+    h1 {
+        color: #4a2c2a;
+        margin-bottom: 10px;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        object-fit: cover;
+        border: 4px solid #4a2c2a;
+        margin-bottom: 20px;
+    }
+
+    .info p {
+        font-size: 18px;
+        margin: 5px 0;
+        color: #333;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="autobiography.html">Autobiography</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="video.html">Videos</a>
+    <a href="my song.html">Songs</a>
+</nav>
+
+<div class="container">
+    <img src="profile pic.jpg" alt="Profile Picture" class="profile-img">
+
+    <h1>Michelle Anne A. De Tomas</h1>
+
+    <div class="info">
+        <p><strong>Year:</strong> 4th Year</p>
+        <p><strong>Section:</strong> BIT major in CT Section T</p>
+    </div>
+
+    <p>“When in doubt, drop a thirst trap.”</p>
+</div>
+
+</body>
+</html>
